@@ -9,7 +9,7 @@ btn1.addEventListener('click', () => {
     content.style.backgroundColor = 'pink';
     btn1.style.backgroundColor = "blue"
     btn2.style.backgroundColor = "lightblue"
-    cn.innerText = ' 2';
+    cn.innerHTML = '&nbsp;2';
 })
 
 btn2.addEventListener('click', () => {
@@ -17,5 +17,5 @@ btn2.addEventListener('click', () => {
     content.style.backgroundColor = 'rebeccapurple'
     btn2.style.backgroundColor = "blue"
     btn1.style.backgroundColor = "lightblue"
-    cn.innerText = ' 1';
+    cn.innerHTML = '&nbsp;1';
 })
